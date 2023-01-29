@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && html-inline -i ./dist/index.html -o ./build/offline.html",
+    "build": "tsc && vite build && html-inline -i ./dist/index.html -o ./dist/offline.html",
     "preview": "vite preview",
     "lint": "eslint --ext .ts,.tsx src"
   },
