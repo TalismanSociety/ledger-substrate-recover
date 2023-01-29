@@ -23,4 +23,4 @@ We recommend using the tool on an air-gapped computer, or at least a computer th
 - Type your mnemonic into the text area
 - Select the appropriate account index and address index.
 - Click the export button, and set a strong password to encrypt the json file
-- Import the json file in Talisman, and recover the funds (send them to an uncompromise account)
+- Import the json file in Talisman, and recover the funds (send all tokens to another account)
