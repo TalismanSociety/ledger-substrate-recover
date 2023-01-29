@@ -1,6 +1,6 @@
 # Talisman - Ledger Substrate Recover tool
 
-This tool can be used to export a substrate account from a Ledger device using it's mnemonic.
+This tool can be used to export substrate accounts from a Ledger device using it's mnemonic.
 
 Example use cases :
 
@@ -11,15 +11,13 @@ Example use cases :
 
 This tool is provided as is, and is not affiliated with Ledger or Parity. Use at your own risk.
 
-If a Ledger mnemonic is typed into a computer, it should be considered compromised. This tool is provided as a convenience to recover funds from a Ledger device, but it is not recommended to use it for any other purpose.
-
-The associated ledger device should be reset with a new mnemonic after funds are recovered.
+If the Ledger mnemonic is typed into a computer, that ledger's security should be considered compromised. After funds are recovered, we recommend reseting the ledger device should be reset with a new mnemonic. Make sure to empty all accounts before resetting the device.
 
 ## Usage
 
 We recommend using the tool on an air-gapped computer, or at least a computer that is not connected to the internet.
 
-- Download the offline tool here, provided as a standalone html file : [](./build/offline.html)
+- Download the offline tool from this link: [offline.html](https://github.com/TalismanSociety/ledger-substrate-recover/releases/latest/download/offline.html)
 - Open the file in chrome
 - Select the network for which the account has originally been created
 - Type your mnemonic into the text area
