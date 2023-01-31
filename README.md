@@ -11,7 +11,7 @@ Example use cases :
 
 This tool is provided as is, and is not affiliated with Ledger or Parity. Use at your own risk.
 
-If the Ledger mnemonic is typed into a computer, that ledger's security should be considered compromised. After funds are recovered, we recommend reseting the ledger device should be reset with a new mnemonic. Make sure to empty all accounts before resetting the device.
+If the Ledger mnemonic is typed into a computer, that ledger's security should be considered compromised. After funds are recovered, we recommend reseting the ledger device with a new mnemonic. Make sure to empty all accounts before resetting the device.
 
 ## Usage
 

@@ -43,8 +43,7 @@ export const ExportPairButton: FC<ExportPairProps> = ({ pair }) => {
         e.preventDefault()
         if (!pair || !password || !canExport) return
         const json = getJsonFromPair(pair, password)
-        console.log({ json })
-        downloadJson(json, "account.json")
+        downloadJson(json, "account")
 
         close()
       } catch (err) {
